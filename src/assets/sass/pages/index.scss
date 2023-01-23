@@ -1,0 +1,13 @@
+.page-container {
+    padding-right: $layout-sidebar + spacing("normal");
+    padding-left: spacing("normal");
+}
+
+.home-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: spacing("extra-wide");
+    margin-bottom: spacing("wide");
+    flex-wrap: wrap;
+}
